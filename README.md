@@ -16,3 +16,9 @@ Kjør programmet med
 python main.py -name "Testulf Testesen" -text "for strålende innsats på introduksjonskurs i programmering"
 ```
 I tillegg til de påkrevde parametrene `name` og `text`, kan man også angi `title` (default `kursbevis`), `subtitle` (default `tildeles`) og `out_folder` (default `out`).
+
+## Eksempler
+
+<img src="examples/Donald_Duck.png" alt="Donald Duck" width="300">
+<img src="examples/Helene_Harefrøken.png" alt="Helene Harefrøken" width="300">
+<img src="examples/Ola_Nordmann.png" alt="Ola Nordmann" width="300">
