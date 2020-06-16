@@ -1,7 +1,7 @@
 # Diplom
 
 Genererer diplom med grafikk som genereres basert på navnet i diplomet, så ulike navn gir ulike bilder.
-Algoritmen for generere bildet er basert på en fra s 118 i boka [print 10](https://10print.org/10_PRINT_121114.pdf)
+Algoritmen for generere bildet er basert på den fra s 118 i boka [print 10](https://10print.org/10_PRINT_121114.pdf)
 
 ## Bruk
 Lag og aktiver virtuelt miljø
