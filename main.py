@@ -33,5 +33,4 @@ def main(name, title, subtitle, text, out_folder):
 
 if __name__ == "__main__":
     args = arg_parser().parse_args()
-    title = args.title
-    main(args.name, args.title, args.subtitle, args.text, args.out_folder)
+    main(args.name, args.title, args.subtitle, args.text.replace('\\n', '\n'), args.out_folder)
