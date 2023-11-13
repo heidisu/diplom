@@ -1,19 +1,19 @@
 # Diplom
 
 Genererer diplom med grafikk som genereres basert på navnet i diplomet, så ulike navn gir ulike bilder.
-Algoritmen for generere bildet er basert på den fra s 118 i boka [print 10](https://10print.org/10_PRINT_121114.pdf)
+Algoritmen for generere bildet er basert på algoritmen på s 118 i boka [print 10](https://10print.org/10_PRINT_121114.pdf)
 
 ## Bruk
-Lag og aktiver virtuelt miljø
+Prosjektet bruker [Poetry](https://python-poetry.org/) for å håndtere avhengigheter, så Poetry må være installert.
 
-Installere avhengigheter
+Installere avhengigheter med
 ```
-pip install -r requirements.txt
+poetry install
 ```
-Png- og pdf-filer lagres i en output folder, default `out`, denne mappen må lages først.
+PNG- og PDF-filer lagres i en output folder, default `out`, denne mappen må lages først.
 Kjør programmet med 
 ```
-python main.py -name "Testulf Testesen" -text "for strålende innsats på introduksjonskurs i programmering"
+poetry run python main.py -name "Testulf Testesen" -text "for strålende innsats på introduksjonskurs i programmering"
 ```
 I tillegg til de påkrevde parametrene `name` og `text`, kan man også angi `title` (default `kursbevis`), `subtitle` (default `tildeles`) og `out_folder` (default `out`).
 
