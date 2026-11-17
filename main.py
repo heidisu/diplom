@@ -27,6 +27,7 @@ def arg_parser():
     return parser
 
 def main(name, title, subtitle, text, out_folder):
+    os.makedirs(out_folder, exist_ok=True)
     image_info = ImageInfo(get_out_path(name, out_folder, "png"), IMG_WIDTH, IMG_HEIGHT)
     generated.generate_from_text(image_info, name)
     pdf.create_certificate(name, title, subtitle, text, image_info, get_out_path(name, out_folder, "pdf"))

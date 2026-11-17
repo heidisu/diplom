@@ -10,7 +10,7 @@ Installere avhengigheter med
 ```
 poetry install
 ```
-PNG- og PDF-filer lagres i en output folder, default `out`, denne mappen må lages først.
+PNG- og PDF-filer lagres i en output folder, default `out`, som lages automatisk hvis den ikke finnes.
 Kjør programmet med 
 ```
 poetry run python main.py -name "Testulf Testesen" -text "for strålende innsats på introduksjonskurs i programmering"
